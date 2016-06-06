@@ -1,0 +1,20 @@
+<html ng-app="mailApp">
+    <head>
+        <script src="js/jquery-1.12.4.js"></script>
+        <script src="js/angular.js"></script>
+        <script src="js/angular-route.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/controllers/InboxCtrl.js"></script>
+        <script src="js/controllers/EmailCtrl.js"></script>
+        
+        
+    </head>
+    <body>
+        <ul>
+            <li><a href='#/inbox'>Inbox</a></li>
+            <li><a href="#/inbox/email/1">Email 1</a></li>
+        </ul>
+        <div ng-view></div>
+    </body>
+
+</html>
